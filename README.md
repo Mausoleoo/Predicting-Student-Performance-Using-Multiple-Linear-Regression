@@ -82,5 +82,28 @@ In the histograms, it is evident that Hours.Studied, Previous.Scores, Extracurri
 
 In contrast, the target variable Performance.Index deviates from this pattern, displaying characteristics consistent with a normal distribution. This deviation suggests a central tendency in Performance.Index, potentially following a bell-shaped curve. These distinct distributional features among predictors and the target variable offer valuable insights, forming a crucial foundation for our subsequent modelling and analytical endeavours.
 
+![image](https://github.com/user-attachments/assets/2cbee588-13fb-4ad1-b6c5-bce0105d0e05)
 
+![image](https://github.com/user-attachments/assets/77363726-f518-4be0-981d-2c22a6105ab6)
 
+It becomes apparent that the variables Previous.Scores and Performance.Index exhibit a discernible linear correlation. The plotted data points suggest a trend where an increase in Previous.Scores aligns with a corresponding rise in Performance.Index, indicative of a positive linear relationship between these two variables. This observation underscores the potential predictive power of Previous.Scores in influencing the overall performance index, providing a valuable insight for further analysis and model development.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Boxplots
+
+![image](https://github.com/user-attachments/assets/98a7e6ef-59d0-4502-a98e-1ddd15432483)
+
+The boxplots for the features Hours.Studied, Previous.Scores, Sleep.Hours, Performance.Index, and Sample.Question.Papers.Practiced reveal a centralized distribution of data. This is evident as the medians are positioned near the center of each box, indicating a balanced distribution of values within these features. Notably, the absence of outliers in the boxplots suggests a consistent and concentrated spread of data points, reinforcing the stability of these variables.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Multiple Linear Regression
+
+### Dummy variable
+
+As the the feature Extracurricular.Activities is a categorical variable with values of yes or no. It must be changed to a numerical value. That is why a dummy variable has been used. The value yes has been changed for 1 and no for 0.
+
+### Correlation Map
+
+![image](https://github.com/user-attachments/assets/71dbef8c-9a08-47ba-9c1e-21ad400fbf13)
