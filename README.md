@@ -116,3 +116,32 @@ The P-values for each parameter in our analysis are remarkably low, approaching 
 
 The model achieved a remarkable R-squared of 0.9888, signifying that 98.88% of the dependent variable's variance is explained by the independent variables. The Adjusted R-squared, closely trailing at 0.9887, adjusts for predictor count, these high values suggest a strong fit.
 
+### ANOVA table
+
+![image](https://github.com/user-attachments/assets/0dddbefa-34d5-4345-8f9e-feb6ea98a846)
+
+![image](https://github.com/user-attachments/assets/0865c5cb-8a7c-4390-802d-a6d926402e6b)
+
+A remarkably low Sum of Squares Error (SSE) suggests that the linear regression model effectively captures and explains the variability in the data, resulting in a highly precise fit.
+
+### Stepwise process
+
+![image](https://github.com/user-attachments/assets/4feff5a4-03e6-436a-973a-1c9f50fd24a2)
+
+The stepwise process, guided by the Akaike Information Criterion (AIC), sequentially optimized the model by adding or removing variables. The decreasing AIC values (14246, 14468, 14961, 15727, 40733, 57567) indicate the iterative refinement, with the final model having the lowest AIC (14246), suggesting a well-balanced when all the predictors are used.
+
+### Adequacy of the model
+
+![image](https://github.com/user-attachments/assets/722f38f1-b07e-4340-85e9-51ecc4f9d0d5)
+
+The points in the QQ plot of residuals are close to the line, which indicates that the residuals follow a normal distribution. Having residuals that closely follow the line in a QQ plot is a good sign for the validity of the linear regression model. It implies that the model assumptions related to the distribution of errors are met, which enhances the reliability of statistical inferences and predictions made by the model. 
+
+# Conclusion
+
+In this project, we embarked on a comprehensive exploration of a dataset on student performance, applying statistical methods learned in the course, including multiple linear regression. The dataset, comprising 10,000 observations with six features, was a rich source for uncovering patterns influencing academic outcomes. We observed distributions and relationships through histograms, correlation maps, and boxplots, laying the foundation for our regression modelling.
+
+The regression model, with an impressive R-squared of 0.9888 and an adjusted R-squared of 0.9887, showcased its effectiveness in explaining student performance. The low p-values of all parameters underscored their significance, and the confidence intervals at a 95% confidence level provided insights into parameter precision.
+
+Further analysis involved examining residuals through QQ plots and residuals vs. fitted values plots. The QQ plot displayed adherence to normality assumptions, while the residuals vs. fitted values plot revealed a random, patternless scatter with a uniform spread, validating the model's linearity and homoscedasticity assumptions.
+
+In conclusion, the project successfully applied regression techniques to understand and predict student performance with a robust model supported by thorough statistical diagnostics. The adherence to assumptions and the model's reliability encourage confidence in leveraging these insights for informed decision-making in educational contexts.
