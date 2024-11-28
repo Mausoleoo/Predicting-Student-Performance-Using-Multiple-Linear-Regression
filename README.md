@@ -61,3 +61,26 @@ The Student Performance dataset comprises 10,000 observations, each encapsulatin
 Source: https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Exploratory Data Analysis
+
+### Histograms
+
+![image](https://github.com/user-attachments/assets/25de1ff1-47a1-4699-bd26-1b57cf8cf9ae)
+
+![image](https://github.com/user-attachments/assets/4097a8c9-f316-4347-9693-1ba307758f97)
+
+![image](https://github.com/user-attachments/assets/ec7be083-a9b5-4db5-ad83-7dce3e0f327a)
+
+![image](https://github.com/user-attachments/assets/95a66e03-fca0-40b3-ac1e-da12590263a6)
+
+![image](https://github.com/user-attachments/assets/fd56f9e9-6a1b-4b34-80ca-405e873c64af)
+
+![image](https://github.com/user-attachments/assets/a1ac936e-276e-4d3d-b0e8-aaf0da96520f)
+
+In the histograms, it is evident that Hours.Studied, Previous.Scores, Extracurricular.Activities, Sleep.Hours, and Sample.Question.Papers.Practiced showcase a uniform distribution, implying an even distribution of values.
+
+In contrast, the target variable Performance.Index deviates from this pattern, displaying characteristics consistent with a normal distribution. This deviation suggests a central tendency in Performance.Index, potentially following a bell-shaped curve. These distinct distributional features among predictors and the target variable offer valuable insights, forming a crucial foundation for our subsequent modelling and analytical endeavours.
+
+
+
