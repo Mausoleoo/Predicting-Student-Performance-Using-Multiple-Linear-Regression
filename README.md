@@ -107,3 +107,12 @@ As the the feature Extracurricular.Activities is a categorical variable with val
 ### Correlation Map
 
 ![image](https://github.com/user-attachments/assets/71dbef8c-9a08-47ba-9c1e-21ad400fbf13)
+
+### Training
+
+![image](https://github.com/user-attachments/assets/1a14ed8b-b024-421c-917e-6546c2d92eda)
+
+The P-values for each parameter in our analysis are remarkably low, approaching almost zero. The low P-values indicate a high level of statistical significance, suggesting that each parameter plays a significant role in influencing the observed outcomes. 
+
+The model achieved a remarkable R-squared of 0.9888, signifying that 98.88% of the dependent variable's variance is explained by the independent variables. The Adjusted R-squared, closely trailing at 0.9887, adjusts for predictor count, these high values suggest a strong fit.
+
